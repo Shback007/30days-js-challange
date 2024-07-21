@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <style>
+        .highlight{
+            background-color: yellow;
+            border: 2px solid red;
+        }
+        p{
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class ="bg-color" id="text">Click I need to be changed</div>
+
+    <div id="list">
+        <ul id="one">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+        <button id="newlist">Click to add a element</button>
+    </div>
+    <div id="remove">Isko hatana hai</div>
+
+    <div id="family">
+        <ul id="parent">
+            <li id="child1">I am first child</li>
+            <li id="child2">I am second child</li>
+        </ul>
+    </div>
+
+    <div id="img">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMa-VslxIl_K6bO13A8O5utX0GkVaVb7u2Fenl0l3NNu-1VsJ7g_veQ9vKOPkXg3_hSPrxQUv2bvbZcNYywMh1iYyD2QXTt2kv73I9_6d89hyNHPKxDpijTvbAYRUqEIFDio8xMgOx28ogOcRtlHGGRtLD5pBLRCGynYK-bsXYCF6z2atnW19y6Yfs9l63MYfQJh7lMG5GEJzldprENfdnI7ADNkRah6ipd0xTMoQ1Y2LKAmcAwxHjybtitlkMElOvxZRio9maJ4zXWetOjgGo0mnyvQk8QdioNA9DlmNLa5HBcKd5zqh4OCgck-PZE76FG-_Cqlc4wzVQlkCzOMySwYsvuvlONAM4nb_R8JOEjb2Hf1Y8-4vGIRsXEOlrvUSQ-CGxmB9JtaHBWDKD7hoX2ZJnh7osrbp8efbUfYRjS4XRZuaOoZeMVFNz4QIcohy4Xhh78Ff_t-79L-xbQu2dmvGHmBEa2k2H6kSmIAQ6g7l7-zfglZF3ztMD5AN8rPZTMHpF-TDY0fMsCa2vE_KIifYwulmtloH2CkQATX7j2F46psKjOAW2Ac9QyiBvNqt1CFNrsgQT4YPQTLbw8LYPbdKbCTld3d-fXtnSLHYyBp9V-O5dKQbCeGiRDrHFDdGD2wYudX8unkAxSNWqKfs3pxq9Dq4Ct8qOXA0g8BAC_UTyCPVIroNehBJBW4VqTPoRNu4dgmYnXUQl-5kleBUJHS_qAbPy4cdxppsDSCCbaBuQlcE60lmWbIEMkhK8Kf_uCduQBPTdm1GmO2pc0dzUae9k73O8D8D_jhyELV8zIn_b-oK4Yf6CI6gDi7F4gNaM3tmwHhebfRpzoN1_8uN_c1wJZkiFo4K0MjqIVNDSArl_fw2rSyVfUX_pFBs7QAg2Jx8Yp2HILkNDzqdlf_EjJEzL_b4jMAMrPmFiyTCOu_K8g5zIh4YVgrRrajwryDVw0oeJpKSQ1ail0anO5xpMmEU-KRyk=w689-h918-s-no-gm?authuser=0 " alt="not available" width="400px" height="500px">
+    </div>
+
+    <div id="myElement">This is a sample element</div>
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+    <button onclick="toggleClass()">Toggle Class</button>
+
+    <p id="tochange">Hi, My name is Sagnik Hore</p>
+    <button id="para">click me to change the paragraph</button>
+</body>
+<script src="index.js"></script>
+</html>
