@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        .img{
+            display: block;
+        }
+        .toggle{
+            display: none;
+        }
+        #cyan{
+            background-color:cyan;
+            border-radius: 5px;
+            font-weight: 700;
+            border: 20px;
+            margin-top: 5px;
+            padding: 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <p id="changeText">Lucky you were born that far away so
+        We could both make fun of distance
+        Lucky that I love a foreign land for
+        The lucky fact of your existence
+        Baby, I would climb the Andes solely
+        To count the freckles on your body
+        Never could imagine there were only
+        Ten million ways to love somebody</p>
+    <button id="buttonText">Click me to change Text</button>
+
+    <img id="img" class="img" src="https://media.licdn.com/dms/image/D4D03AQGriPrqz9EZ0g/profile-displayphoto-shrink_800_800/0/1721058517384?e=1727308800&v=beta&t=43tKyAW0M4tw1Jb07n3E5V98NUczBCFeepESaoxR5jE" alt="" width="200px" style="padding: 10px; padding-left: 0;">
+    <button style="display: block;" id="imgButton">Double click me to toggle me</button>
+
+    <div id="Task3&4">
+        <span id="cyan">Oi cunt....</span>
+    </div>
+
+    <div id="Task5">
+        <input type="text" id="keys" style="margin-top: 10px;">
+        <p id="output1"></p>
+        <p id="output2"></p>
+    </div>
+
+    <div id="Task7">
+        <form id="form1">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="task task-8">
+        <label for="options">Choose an option:</label>
+        <select id="options">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+        </select>
+
+        <p id="selectedValue">Selected value will be displayed here.</p>
+        <p id="selectedContent">Selected Content is shown here</p>
+    </div>
+
+    <div class="task" id="parentElement">
+        <p>Initial child elements:</p>
+        <select class="dynamic-select">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+        </select>
+    </div>
+
+    <button id="addElement">Add new select element</button>
+    <p id="selectedValue">Selected value will be displayed here.</p>
+
+</body>
+<script src="index.js"></script>
+</html>
