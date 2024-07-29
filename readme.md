@@ -14,8 +14,7 @@ This repository contains solutions to various JavaScript problems that are part 
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
-- [License](#license)
-
+  
 ## Challenge Content
 
 Each day's solution is implemented as a separate JavaScript file, making it easy to navigate through and review the different challenges. Here's a brief overview of the content:
