@@ -1,7 +1,3 @@
-Here's a draft README for your repository. Feel free to tweak or expand upon it as needed:
-
----
-
 # 30 Days JavaScript Challenge
 
 Welcome to my 30 Days JavaScript Challenge repository! 🎉 This project is a collection of solutions to a series of JavaScript challenges designed to improve and test your coding skills over the course of 30 days. The challenges are based on the course created by [Chai and Code](https://courses.chaicode.com/learn/home/30-days-of-Javascript-challenge/30-days-javascript-challenge/section/515627/lesson/3197429) and led by [Hitesh Choudhary](https://github.com/hiteshchoudhary).
