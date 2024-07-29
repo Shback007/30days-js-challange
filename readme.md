@@ -53,7 +53,7 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 For any questions or to connect with me, you can reach out through the following platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/sagnik-hore-33a8292a6/)
-- [Twitter](#) (replace with your Twitter link if applicable)
+- [Twitter](https://x.com/HoreSagnik34217)
 - [GitHub](https://github.com/Shback007)
 
 ## License
