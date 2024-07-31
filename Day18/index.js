@@ -168,3 +168,40 @@ function mergeSortedArrays(arr1, arr2) {
     return merged.concat(arr1.slice(i)).concat(arr2.slice(j));
 }
 console.log("Merge Two Sorted Arrays:", mergeSortedArrays([1, 3, 5], [2, 4, 6]));
+
+//Activity 5
+
+console.log("\nActivity 5");
+
+console.log("\nTask 10");
+
+let dp = new Array(100).fill(-1);
+dp[0] = 0;
+dp[1] = 1;
+const fibo = (n) =>{
+    if(dp[n] !== -1) return dp[n];
+    return dp[n] = fibo(n-1)+fibo(n-2);
+}
+
+fibo(70);
+console.log(fibo(10));
+
+console.log("\nTask 11");
+
+const knapSack=(values, weights, capacity)=>{
+    let n = values.length;
+    let dp = Array(n+1).fill().map(()=>Array(capacity+1).fill(0));
+
+    for (let i = 1; i <= n; i++) {
+        for (let w = 0; w <= capacity; w++) {
+            if (weights[i - 1] <= w) {
+                dp[i][w] = Math.max(values[i - 1] + dp[i - 1][w - weights[i - 1]], dp[i - 1][w]);
+            } else {
+                dp[i][w] = dp[i - 1][w];
+            }
+        }
+    }
+    return dp[n][capacity];
+}
+
+console.log(`KnapSack Problem (DP): ${knapSack([60,100,120], [10,20,30], 50)}`);
