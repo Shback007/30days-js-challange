@@ -6,7 +6,33 @@
     <title>Day20</title>
 </head>
 <body>
-    
+    <form id="userForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <button type="submit">Save</button>
+    </form>
+
+    <h1>Saved Data:</h1>
+    <p id="savedData"></p>
+    <h1>LocalStorage Example</h1>
+    <button id="removeItemButton">Remove Item</button>
+    <button id="removeSessionItemButton">Remove Session Item</button>
+    <h2>SessionStorage Example</h2>
+    <button id="saveValueButton">Save Value</button>
+    <button id="retrieveValueButton">Retrieve Value</button>
+    <h2>SessionStorage Object Example</h2>
+    <button id="saveObjectButton">Save Object</button>
+    <button id="retrieveObjectButton">Retrieve Object</button>
+    <h2>Storage Example</h2>
+    <button id="saveButton">Save to Storage</button>
+    <button id="retrieveButton">Retrieve from Storage</button>
+    <h2>Clear Storage Example</h2>
+    <button id="clearButton">Clear Storage</button>
+
 </body>
 <script src="index.js"></script>
 </html>
