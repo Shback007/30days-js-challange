@@ -89,3 +89,85 @@ body{
     font-size: 14px;
     display: none;
 }
+
+@media (max-width: 768px) {
+    .card {
+        margin: 50px auto 0;
+        padding: 30px 25px;
+    }
+
+    .search input {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .weather-icon {
+        width: 140px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 35px;
+    }
+
+    .details {
+        margin-top: 30px;
+    }
+
+    .humidity, .wind {
+        font-size: 24px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .card {
+        margin: 20px auto 0;
+        padding: 20px 15px;
+    }
+
+    .search input {
+        height: 40px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .search button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .weather-icon {
+        width: 120px;
+    }
+
+    .weather h1 {
+        font-size: 50px;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .details {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+
+    .col {
+        margin-bottom: 20px;
+    }
+
+    .humidity, .wind {
+        font-size: 20px;
+    }
+}
