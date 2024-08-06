@@ -5,6 +5,11 @@ const weatherIcon = document.querySelector('.weather-icon')
 button.addEventListener('click',(e)=>{
     checkWeather(searchBox.value);
 })
+searchBox.addEventListener("keypress",(e)=>{
+    if(e.key==="Enter"){
+        checkWeather(searchBox.value);
+    }
+})
 
 const apiKey = "f90f2bb0d761544ea7bd59df2dbe304e";
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=`;
@@ -39,5 +44,4 @@ async function checkWeather(city){
     
 
 }
-checkWeather()
 
